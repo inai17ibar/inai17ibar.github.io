@@ -1,7 +1,5 @@
-
 Created on nov 11, 2014
 @author: inai17ibar
-
 ==========
 
 Here introduces myself.
@@ -11,3 +9,5 @@ Here introduces myself.
 * cv
 
 etc
+
+referrence to https://pages.github.com/
