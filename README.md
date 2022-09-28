@@ -1,11 +1,9 @@
-Created on nov 11, 2014
+Uptare on sep 28, 2022
 @author: inai17ibar
 ==========
 
 Here introduces myself.
-* research
-* artwork
-* cv
-etc
+* profile
+* cv (research, job, etc)
 
 referrence to https://pages.github.com/
