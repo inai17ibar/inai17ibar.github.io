@@ -18,20 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: inai17ibar
+title: Soichiro Inatani
 email: inai17ibar@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: inai17ibar.github.io # the subpath of your site, e.g. /blog
-url: "https://inai17ibar.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: inai17ibar
-github_username:  inai17ibar
+description: R&D Engineer and UX Researcher
+url: "https://inai17ibar.github.io"
 baseurl: ""
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 lsi: false
@@ -44,6 +38,24 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Minimal Mistakes theme settings
+minimal_mistakes_skin: "default"
+sidebar:
+  - title: "Navigation"
+    image: /assets/images/bio-photo.jpg
+    image_alt: "bio photo"
+    nav:
+      - title: "About"
+        url: /about/
+      - title: "CV"
+        url: /cv/
+      - title: "Works"
+        url: /works/
+      - title: "Contact"
+        url: /contact/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
