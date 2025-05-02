@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # GitHub Pagesの依存関係を監視
+  - package-ecosystem: "bundler"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "dependencies"
+      - "github-pages"
+    commit-message:
+      prefix: "deps"
+      include: "scope"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "inai17ibar"
+    assignees:
+      - "inai17ibar"
+    ignore:
+      # セキュリティ更新は無視しない
+      - dependency-name: "*"
+        update-types: ["version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch"] 
