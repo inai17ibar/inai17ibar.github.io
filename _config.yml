@@ -57,6 +57,27 @@ sidebar:
       - title: "Contact"
         url: /contact/
 
+# Author Settings
+author:
+  name: "Soichiro Inatani"
+  avatar: "/assets/images/bio-photo.jpg"
+  bio: "R&D Engineer and Software Engineer"
+  location: "Tokyo, Japan"
+  email: "inai17ibar@gmail.com"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:inai17ibar@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/inai17ibar"
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/inai17ibar"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/soichiro-inatani"
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
