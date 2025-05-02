@@ -18,10 +18,11 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
 end
 
-gem "webrick", "~> 1.8"
-gem "sassc", "~> 2.4.0"  # Ruby Sassの代わりにsasscを使用
+gem "webrick", "~> 1.8.2"  # CVE-2024-47220の修正
+gem "sassc", "~> 2.4.0"
 gem "html-pipeline", "~> 2.14.3"
-gem "rubyzip", "~> 2.3.2"  # 3.0リリース前に2.3系を使用
+gem "rubyzip", "~> 2.3.2"
+gem "rexml", "~> 3.3.9"  # 複数のDoS脆弱性の修正
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
