@@ -19,6 +19,9 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.8"
+gem "sassc", "~> 2.4.0"  # Ruby Sassの代わりにsasscを使用
+gem "html-pipeline", "~> 2.14.3"
+gem "rubyzip", "~> 2.3.2"  # 3.0リリース前に2.3系を使用
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
