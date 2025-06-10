@@ -25,7 +25,6 @@ url: "https://inai17ibar.github.io"
 baseurl: ""
 
 # Build settings
-theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 lsi: false
@@ -41,42 +40,12 @@ kramdown:
 markdown: kramdown
 permalink: /:categories/:title/
 
-# Minimal Mistakes theme settings
-minimal_mistakes_skin: "default"
-sidebar:
-  - title: "Navigation"
-    image: /assets/images/bio-photo.jpg
-    image_alt: "bio photo"
-    nav:
-      - title: "About"
-        url: /about/
-      - title: "CV"
-        url: /cv/
-      - title: "Works"
-        url: /works/
-      - title: "Contact"
-        url: /contact/
-
-# Author Settings
+# Site Author
 author:
   name: "Soichiro Inatani"
-  avatar: "/assets/images/bio-photo.jpg"
-  bio: "R&D Engineer and Software Engineer"
+  bio: "R&D Engineer and UX Researcher"
   location: "Tokyo, Japan"
   email: "inai17ibar@gmail.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:inai17ibar@gmail.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/inai17ibar"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/inai17ibar"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/soichiro-inatani"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
