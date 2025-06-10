@@ -7,7 +7,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-# gem "jekyll", "~> 4.3.2"
+gem "jekyll", "~> 3.9.3"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "minima", "~> 2.5"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
@@ -16,18 +16,22 @@ gem "github-pages", "~> 228", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-seo-tag", "~> 2.8"
 end
 
-gem "webrick", "~> 1.8.2"  # CVE-2024-47220の修正
+gem "webrick", "~> 1.8"
 gem "sassc", "~> 2.4.0"
 gem "html-pipeline", "~> 2.14.3"
 gem "rubyzip", "~> 2.3.2"
 gem "rexml", "~> 3.3.9"  # 複数のDoS脆弱性の修正
+gem "nokogiri", "~> 1.18.8"
+gem "csv"
+gem "logger"
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
 # and associated library.
 platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
+  gem "tzinfo", ">= 1"
   gem "tzinfo-data"
 end
 

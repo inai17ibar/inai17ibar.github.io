@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Soichiro Inatani
+title: Soichiro Inatani - Software Engineer
 email: inai17ibar@gmail.com
-description: R&D Engineer and UX Researcher
+description: R&D Engineer and UX Researcher - Bridging innovative technology with human-centered design
 url: "https://inai17ibar.github.io"
 baseurl: ""
 

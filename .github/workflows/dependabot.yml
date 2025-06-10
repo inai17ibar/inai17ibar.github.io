@@ -29,4 +29,10 @@ jobs:
           bundle install
       
       - name: Run Jekyll build
-        run: bundle exec jekyll build 
+        run: bundle exec jekyll build
+
+      - name: Uninstall @anthropic-ai/claude-code
+        run: npm uninstall -g @anthropic-ai/claude-code
+
+      - name: Install @anthropic-ai/claude-code
+        run: sudo npm install -g @anthropic-ai/claude-code 
