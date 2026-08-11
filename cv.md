@@ -5,10 +5,10 @@ permalink: /cv/
 ---
 
 # Soichiro Inatani
-**R&D Engineer | Software Engineer | UX Researcher**
+**R&D Engineer ／ Software Engineer ／ UX Researcher**
 
 📧 inai17ibar@gmail.com
-🌐 [GitHub](https://github.com/inai17ibar) | [LinkedIn](https://www.linkedin.com/in/soichiro-inatani/)
+🌐 [GitHub](https://github.com/inai17ibar) ・ [LinkedIn](https://www.linkedin.com/in/soichiro-inatani/)
 📍 Tokyo, Japan
 
 ---

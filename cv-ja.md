@@ -5,10 +5,10 @@ permalink: /cv-ja/
 ---
 
 # 稲谷 壮一郎（Soichiro Inatani）
-**研究開発エンジニア | ソフトウェアエンジニア | UXリサーチャー**
+**研究開発エンジニア ／ ソフトウェアエンジニア ／ UXリサーチャー**
 
 📧 inai17ibar@gmail.com
-🌐 [GitHub](https://github.com/inai17ibar) | [LinkedIn](https://www.linkedin.com/in/soichiro-inatani/)
+🌐 [GitHub](https://github.com/inai17ibar) ・ [LinkedIn](https://www.linkedin.com/in/soichiro-inatani/)
 📍 東京都
 
 ---
