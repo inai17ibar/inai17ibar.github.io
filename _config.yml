@@ -27,6 +27,8 @@ baseurl: ""
 # Build settings
 plugins:
   - jekyll-feed
+include:
+  - _pages
 lsi: false
 safe: true
 source: .
