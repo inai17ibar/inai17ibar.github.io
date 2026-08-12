@@ -8,6 +8,7 @@ title: "Home"
   <h1 class="hero-title">技術と人のあいだに、<br><span class="marker">橋を架ける</span>。</h1>
   <p class="hero-lead">稲谷壮一郎です。ソニーのR&amp;DエンジニアとしてLLM/VLMアプリケーションの開発に取り組んでいます。修士研究で機械に手書き文字を読ませることから始まったキャリアは、ARグラスのUX設計を経て、いまはリサーチから設計、実装まで — 技術がユーザーに届くまでの全体を扱っています。</p>
   <ul class="hero-links">
+    <li><a href="/n1/">n=1 実験ノート</a></li>
     <li><a href="/about/">プロフィール</a></li>
     <li><a href="/cv-ja/">職務経歴</a></li>
     <li><a href="https://github.com/inai17ibar">GitHub</a></li>

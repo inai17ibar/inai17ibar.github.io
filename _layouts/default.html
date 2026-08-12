@@ -20,6 +20,7 @@
             </a>
             <nav class="site-nav">
                 <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a>
+                <a href="/n1/" {% if page.url contains "/n1/" %}aria-current="page"{% endif %}>n=1</a>
                 <a href="/about/" {% if page.url == "/about/" %}aria-current="page"{% endif %}>About</a>
                 <a href="/cv/" {% if page.url == "/cv/" %}aria-current="page"{% endif %}>CV</a>
                 <a href="/cv-ja/" {% if page.url == "/cv-ja/" %}aria-current="page"{% endif %}>CV 日本語</a>

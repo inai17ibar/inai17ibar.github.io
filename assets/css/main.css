@@ -240,6 +240,28 @@ img { max-width: 100%; height: auto; }
   .bio-photo { width: 108px; margin-left: 18px; }
 }
 
+/* ---- figures ---- */
+
+figure { margin: 2.4em 0; }
+
+figure img {
+  display: block;
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+}
+
+/* phone-sized UI captures stay small so they don't swallow the column */
+figure.shot img { max-width: 340px; }
+
+figcaption {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  line-height: 1.9;
+  color: var(--pencil);
+  max-width: 34em;
+  margin-top: 0.8em;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
