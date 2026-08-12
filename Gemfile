@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 # jekyll itself is provided (and version-pinned) by the github-pages gem.
-gem "github-pages", "~> 228", group: :jekyll_plugins
+gem "github-pages", "~> 232", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
@@ -19,7 +19,7 @@ gem "sassc", "~> 2.4.0"
 gem "html-pipeline", "~> 2.14.3"
 gem "rubyzip", "~> 2.3.2"
 gem "rexml", "~> 3.4.2"  # Fix CVE-2025-58767
-gem "nokogiri", "~> 1.18.9"  # Fix CVE-2025-49794, CVE-2025-49795, CVE-2025-49796
+gem "nokogiri", "~> 1.19.4"  # Fix GHSA-c4rq-3m3g-8wgx ほか（1.18系は脆弱）
 gem "csv"
 gem "logger"
 
