@@ -88,6 +88,9 @@ tags: [n=1, ...]
   the filename, not the title, so a Japanese filename produces a Japanese URL.
 - **A future `date:` silently hides the post.** Jekyll skips future-dated posts by default — the page
   simply never builds, with no warning. Check the timestamp before hunting for other causes.
+- **Dates render in JST** via `timezone: Asia/Tokyo` in `_config.yml`. Without it GitHub Pages builds
+  in UTC, which pushes an early-morning JST post back to the previous day in production while it
+  still looks correct locally. Verify with `TZ=UTC bundle exec jekyll build`.
 - **Screenshots** go in `<figure class="shot">` with a `<figcaption>`. Phone-sized captures are capped
   at 340px wide so they don't swallow the column; supply the image at 2x for retina.
 

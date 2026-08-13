@@ -34,6 +34,9 @@ safe: true
 source: .
 incremental: false
 highlighter: rouge
+# GitHub Pages builds in UTC. Without this, a post dated e.g. 03:00 +0900 renders
+# with the previous day's date in production while looking correct locally.
+timezone: Asia/Tokyo
 gist:
   noscript: false
 kramdown:
